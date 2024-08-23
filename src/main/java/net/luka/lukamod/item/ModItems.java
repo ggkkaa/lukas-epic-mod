@@ -16,6 +16,10 @@ public class ModItems {
             new Item(new Item.Settings()));
     public static final Item COMMUNISM = registerItem("communist",
             new Item(new Item.Settings()));
+    public static final Item CORITE = registerItem("corite",
+            new Item(new Item.Settings()));
+    public static final Item RAW_CORITE = registerItem("raw_corite",
+            new Item(new Item.Settings()));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(LukasEpicMod.MOD_ID, name), item);

@@ -12,10 +12,12 @@ import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
     public static final ItemGroup BANANAS = Registry.register(Registries.ITEM_GROUP,
-            Identifier.of(LukasEpicMod.MOD_ID, "itemgroup.bananas"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.bananas"))
-                    .icon(() -> new ItemStack(ModItems.BANANA)).entries((displayContext, entries) -> {
+            Identifier.of(LukasEpicMod.MOD_ID, "itemgroup.lukamodgroup"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.lukamodgroup"))
+                    .icon(() -> new ItemStack(ModItems.CORITE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.BANANA);
                         entries.add(ModItems.BANANA_CHOCOLATE);
+                        entries.add(ModItems.CORITE);
+                        entries.add(ModItems.RAW_CORITE);
                     }).build());
 
     public static void registerItemGroups() {
