@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "lukamod",
+	"version": "${version}",
+	"name": "Luka's Epic Mod",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Luka"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/lukamod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.luka.lukamod.LukasEpicMod"
+		],
+		"fabric-datagen": [
+			"net.luka.lukamod.LukasEpicModDataGenerator"
+		],
+		"client": [
+			"net.luka.lukamod.LukasModClient"
+		]
+	},
+	"mixins": [
+		"lukamod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.2",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
