@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "lukamod:block/deepslate_corite_ore"
+  }
+}
