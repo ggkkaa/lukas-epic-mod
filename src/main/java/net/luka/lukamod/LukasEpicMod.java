@@ -2,6 +2,7 @@ package net.luka.lukamod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.luka.lukamod.block.ModBlocks;
 import net.luka.lukamod.item.ModItemGroups;
 import net.luka.lukamod.item.ModItems;
 import org.slf4j.Logger;
@@ -14,6 +15,8 @@ public class LukasEpicMod implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItemGroups.registerItemGroups();
+
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
