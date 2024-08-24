@@ -18,6 +18,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.CORITE_BLOCK);
                         entries.add(ModBlocks.CORITE_ORE);
                         entries.add(ModBlocks.DEEPSLATE_CORITE_ORE);
+                        entries.add(ModBlocks.NETHER_CORITE_ORE);
+                        entries.add(ModBlocks.END_CORITE_ORE);
                         entries.add(ModItems.CORITE);
                         entries.add(ModItems.RAW_CORITE);
                         entries.add(ModItems.BANANA);

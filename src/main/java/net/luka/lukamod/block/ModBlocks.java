@@ -23,11 +23,22 @@ public class ModBlocks {
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 6),
                     AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)
                     .strength(4f).requiresTool().luminance(state -> 5)));
-
     public static final Block DEEPSLATE_CORITE_ORE = registerBlock("deepslate_corite_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
                     AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)
-                            .strength(6f).requiresTool().luminance(state -> 5)));
+                            .strength(6f).requiresTool()));
+
+    public static final Block NETHER_CORITE_ORE = registerBlock("nether_corite_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
+                    AbstractBlock.Settings.create().sounds(BlockSoundGroup.NETHER_ORE)
+                            .strength(6f).requiresTool()));
+
+    public static final Block END_CORITE_ORE = registerBlock("end_corite_ore",
+            new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
+                    AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)
+                            .strength(6f).requiresTool()));
+
+
 
 
     private static Block registerBlock(String name, Block block) {
