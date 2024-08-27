@@ -1,0 +1,13 @@
+{
+  "type": "minecraft.blasting",
+  "category": "misc",
+  "cookingTime": 100,
+  "experience": 0.25,
+  "group": "corite",
+  "ingredient": {
+    "item": "lukamod:raw_corite"
+  },
+  "result": {
+    "id": "lukamod:corite"
+  }
+}
