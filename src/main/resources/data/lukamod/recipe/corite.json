@@ -3,7 +3,7 @@
   "category": "building",
   "ingredients": [
     {
-      "item": "lukamod:corite_block"
+      "item": "lukamod:block_of_corite"
     }
   ],
   "result": {
