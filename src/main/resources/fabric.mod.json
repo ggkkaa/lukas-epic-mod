@@ -3,7 +3,7 @@
 	"id": "lukamod",
 	"version": "${version}",
 	"name": "Luka's Epic Mod",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "This is a (hopefully in the future) overhaul of minecraft, based around corite.",
 	"authors": [
 		"Luka"
 	],

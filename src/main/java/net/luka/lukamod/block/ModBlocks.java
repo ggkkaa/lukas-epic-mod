@@ -12,22 +12,20 @@ import net.minecraft.sound.BlockSoundGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.intprovider.UniformIntProvider;
 
-import java.util.function.ToIntFunction;
-
 public class ModBlocks {
     public static final Block CORITE_BLOCK = registerBlock("block_of_corite",
             new Block(AbstractBlock.Settings.create().sounds(BlockSoundGroup.AMETHYST_BLOCK)
-                    .strength(4f).requiresTool().luminance(state -> 5)));
+                    .strength(2f).requiresTool().luminance(state -> 5)));
 
     public static final Block CORITE_ORE = registerBlock("corite_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(2, 6),
                     AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)
-                    .strength(4f).requiresTool()));
+                    .strength(2f).requiresTool()));
 
     public static final Block DEEPSLATE_CORITE_ORE = registerBlock("deepslate_corite_ore",
             new ExperienceDroppingBlock(UniformIntProvider.create(3, 6),
                     AbstractBlock.Settings.create().sounds(BlockSoundGroup.STONE)
-                            .strength(6f).requiresTool()));
+                            .strength(3f).requiresTool()));
 
 
     private static Block registerBlock(String name, Block block) {
