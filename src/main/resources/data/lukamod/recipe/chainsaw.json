@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " #S",
+    " /#",
+    "C  "
+  ],
+  "key": {
+    "#": { "item": "minecraft:iron_ingot" },
+    "S": { "item": "minecraft:iron_sword" },
+    "/": { "item": "minecraft:stick" },
+    "C": { "item": "lukamod:corite" }
+  },
+  "result": {
+    "id": "lukamod:corite_chainsaw",
+    "count": 1
+  }
+}

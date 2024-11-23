@@ -12,7 +12,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
-    public static final ItemGroup BANANAS = Registry.register(Registries.ITEM_GROUP,
+    public static final ItemGroup CoriteMod = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(LukasEpicMod.MOD_ID, "itemgroup.lukamodgroup"), FabricItemGroup.builder().displayName(Text.translatable("itemgroup.lukamodgroup"))
                     .icon(() -> new ItemStack(ModItems.CORITE)).entries((displayContext, entries) -> {
                         entries.add(ModBlocks.CORITE_BLOCK);
@@ -22,6 +22,7 @@ public class ModItemGroups {
                         entries.add(ModItems.RAW_CORITE);
                         entries.add(ModItems.BANANA);
                         entries.add(ModItems.BANANA_CHOCOLATE);
+                        entries.add(ModItems.CORITE_CHAINSAW);
                     }).build());
 
     public static void registerItemGroups() {
